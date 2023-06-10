@@ -57,18 +57,7 @@ img {
 .black-logo {
     color: var(--black-logo-titl);
 }
-.open-btn {
-    padding: 15px 30px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    border-radius: 4px;
 
-}
 button {
     cursor: pointer;
 }
@@ -91,7 +80,8 @@ button {
     padding-top: 12px;
         padding-bottom: 12px;
    }
-                
+                   /* ==========================MAINE================================== */
+
                 
 }
 
@@ -110,6 +100,7 @@ button {
         background: #FFFFFF;
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     }
+
 
     .mobile-menu-list {
         display: flex;
@@ -232,6 +223,19 @@ button {
     
         }
 
+/* ==========================MAINE================================== */
+
+                .main-title {
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 1.11;
+                    letter-spacing: 0.02em;
+                    max-height: 80px;
+                    max-width: 320px;
+                    text-align: center;
+                    color: var(--icon-color)
+                }
+                                
 }
 @media screen and (max-width: 479px){
     .menu-header-navigatione {
@@ -240,6 +244,9 @@ button {
     .emeil-tel{
         display: none;
     }
+
+/* ==========================MAINE================================== */
+
 }
 
 
@@ -255,6 +262,12 @@ button {
                 .emeil-tel {
                     display: none;
                 }
+                
+
+
+/* ==========================MAINE================================== */
+
+
 }
    @media screen and (min-width: 768px) {
 .container{
@@ -284,7 +297,14 @@ button {
 .emeil-tel{
     display: flex;
 }
+/* ==========================MAINE================================== */
 
+.main-title {
+    max-width: 496px;
+    max-height: 120px;
+    font-size: 56px;
+    line-height:1.11;
+}
 
    }
 
@@ -307,11 +327,17 @@ button {
     display: flex;
     gap: 40px;
 }
+/* ==========================MAINE================================== */
+
+
+
 }
 .list{
     list-style: none;
     padding-left: 0;
 } 
+
+
 
 /* ==================================================HEADER================================== */
 .menu-link {
@@ -378,8 +404,52 @@ button {
     color: var(--accent-color);
 }
 
+.hero-section{
 
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.section-head {
+    background: #2E2F42;
+    background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-width: 100%;
+        padding-top: 112px;
+        padding-bottom: 112px;
+    border-bottom: 1px solid #e7e9fc;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/hero-image.jpg");
+    
+}
+.main-title {
+    display: block;
+    font-weight: 700;
+    
+    letter-spacing: 0.02em;
+    
+    text-align: center;
+    color: var(--icon-color)
+}
+.open-btn {
+    Background-color: var(--checkbox-link-text-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        cursor: pointer;
+        color: var(--icon-color);
+        padding: 16px 32px;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        transition: background-color 250ms var(--transition-duration-and-func);
+        margin-top: 72px;
 
+}
 
 
 
@@ -513,18 +583,7 @@ header{
     text-align: center; 
 }*/
 /* flexbox ======================title =========================================*/
-/* .section-head{
-    background: #2E2F42;
-    max-width: 1440px;
-    padding-top: 188px;
-    padding-bottom: 188px;
-    border-bottom: 1px solid #e7e9fc;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url("../images/hero/hero-image.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        margin: 0 auto;
-} */
+/*  */
 
 
 /*=================================== competencies================================== */
