@@ -41,7 +41,20 @@ ol {
 img {
     display: block;
 }
-
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.black-logo {
+    color: var(--black-logo-titl);
+}
 .open-btn {
     padding: 15px 30px;
     font-weight: 500;
@@ -256,9 +269,7 @@ display: flex;
 }
 .mobile-social-list{
     display: flex;
-    gap: 56px;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .mobile-manu-list-email{
     font-weight: 500;
@@ -283,17 +294,7 @@ display: flex;
 }
 
 /* 
-.logo {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4D5AE5;
-        }
+
 .black-logo{
     color:var(--black-logo-titl);
 }
