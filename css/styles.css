@@ -37,6 +37,7 @@ ol {
 }
 .link {
     text-decoration: none;
+    color: #2E2F42;
 }
 img {
     display: block;
@@ -256,28 +257,35 @@ display: flex;
             
 }
 .mobile-manu-list-tel{
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.1;
-        letter-spacing: 0.02em;
-            text-transform: capitalize;
-            margin-bottom: 40px;
+margin-bottom: 40px;
+            
             
 }
 .mobile-manu-list-item{
     color: #404BBF;
+}
+.mobile-manu-tel{
+    font-weight: 700;
+    font-style: normal;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    color: var(--accent-color);
 }
 .mobile-social-list{
     display: flex;
     justify-content: space-between;
 }
 .mobile-manu-list-email{
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
         margin-bottom: 48px;
-        color: #434455;
+}
+.mobile-manu-email{
+        font-weight: 500;
+        font-style: normal;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
 }
 .mobile-social-list-link{
     color: var(--accent-color);
