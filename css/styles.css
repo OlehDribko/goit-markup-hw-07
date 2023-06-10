@@ -83,10 +83,16 @@ button {
 }
 /*======================================= DEDIA */
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1200px){
     header-email-add{
         padding-bottom: 12px;
     }
+   .page-header-conteiner{
+    padding-top: 12px;
+        padding-bottom: 12px;
+   }
+                
+                
 }
 
 @media screen and (max-width: 767px){
@@ -113,6 +119,7 @@ button {
         gap: 40px;
 
     }
+    
 
     .mobile-menu.is-open {
         opacity: 1;
@@ -252,6 +259,8 @@ button {
    @media screen and (min-width: 768px) {
 .container{
     width: 720px;
+    margin: 0;
+    width: 100%;
 }
 .logo{
     padding-right: 120px;
@@ -284,12 +293,19 @@ button {
     width: 1200px;
     
 }
-
+.page-header-conteiner{
+    padding-top: 24px;
+        padding-bottom: 24px;
+}
 .mobile-menu{
     display: none;
 }
 .page-nav {
     padding-right: 76px;
+}
+.address-contact{
+    display: flex;
+    gap: 40px;
 }
 }
 .list{
@@ -338,8 +354,7 @@ button {
     align-items: center;
     justify-content: space-between;
     transition: box-shadow var(--transition-duration-and-funk);
-    padding-top: 25px;
-        padding-bottom: 25px;
+   
 }
 .header-conteiner{
     border-bottom: 1px solid #E7E9FC;
@@ -477,10 +492,7 @@ gap: 40px
 
 
 
-.address-contact{
-display: flex;
-gap: 40px;
-}
+
 header{
     padding-top: 25.5px;
     padding-bottom: 21.5px;
