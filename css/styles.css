@@ -186,6 +186,14 @@ background:var(--accent-color);
     background: #FFFFFF;
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+.mobile-menu-list{
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+        margin-bottom: 244px;
+}
 .mobile-menu-container{
     margin-bottom: 200px;
 }
@@ -195,23 +203,41 @@ opacity: 1;
     pointer-events: auto;
 }
 .mobile-menu-close-btn{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #2E2F42;
-    background: transparent;
-    opacity: 0.1;
-    padding: 0;
-    border-radius: 50%;
-    top: 24px;
-    right: 24px;
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 24px;
+            right: 24px;
+            width: 24px;
+            height: 24px;
+            padding: 0;
+            background-color: rgba(231, 233, 252, 0.1);
+            border: 1px solid rgba(46, 47, 66, 0.1);
+            fill: #2E2F42;
+            border-radius: 50%;
+            transition: background-color var(--transition-duration-and-func);
 
+}
+.mobile-contacts-list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 .mobile-menu-container{
     position: relative;
     padding-top: 80px;
     padding-left: 40px;
+}
+
+.mobile-manu-list-title-nav{
+
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+            text-transform: capitalize;
+            
 }
 .mobile-manu-list-title{
     font-weight: 700;
@@ -220,8 +246,7 @@ opacity: 1;
         letter-spacing: 0.02em;
             text-transform: capitalize;
             margin-bottom: 40px;
-            width: 109px;
-            height: 40px;
+            
 }
 .mobile-manu-list-item{
     color: #404BBF;
@@ -238,6 +263,7 @@ opacity: 1;
         line-height: 1.2;
         letter-spacing: 0.02em;
         margin-bottom: 48px;
+        color: #434455;
 }
 .mobile-social-list-link{
     color: var(--accent-color);
@@ -252,6 +278,7 @@ opacity: 1;
     background-color: #4D5AE5;
     transition: background-color var(--transition-duration-and-funk);
 }
+
 /* 
 .logo {
         font-family: 'Raleway', sans-serif;
