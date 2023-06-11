@@ -72,7 +72,15 @@ button {
 .mobile-menu-close-btn{
     display: none;
 }
-/*======================================= DEDIA */
+/*======================================= mEDIA */
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .box {
+        background-image: url('photo@2x.png');
+    }
+}
+
 
 @media screen and (max-width: 1200px){
 .foorer-box-social{
@@ -490,7 +498,7 @@ button {
     display: flex;
 
 }
-.fsociable-footer-icon{
+.sociable-footer-icon{
     margin-left: 120px;
     margin-right: 80px;
 }
