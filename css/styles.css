@@ -75,7 +75,15 @@ button {
 /*======================================= DEDIA */
 
 @media screen and (max-width: 1200px){
+.foorer-box-social{
 
+    display: flex;
+        flex-wrap: wrap;
+        max-width: 584px;
+        gap: 72px 24px;
+        flex-direction: unset;
+        justify-content: left;
+}
     .svg-costomers-icon{
         flex-basis: calc((100% - 120px) / 6);
             height: 88px;
@@ -133,7 +141,20 @@ button {
 }
 @media screen and (max-width: 767px){
 
-
+    .box-footer-contacts {
+            text-align: center;
+            width: 100%;
+        }
+    .box-footer-contacts {
+            text-align: center;
+            width: 100%;
+        }
+.foorer-box-social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 72px;
+    }
 .people-list{
 
     flex-basis: calc((100% - 24px) / 4);
@@ -359,11 +380,34 @@ button {
 
 }
    @media screen and (min-width: 768px) {
+
+.footer-container-titl{
+    width: 240px;
+}
 .container{
     width: 768px;
     width: 100%;
     
-    
+}
+
+.box-footer-contacts{
+    display: flex;
+    flex-direction: column;
+}
+.footer-container-titl{
+    justify-content: left;
+}
+.foorer-box {
+    flex-direction: unset;
+}
+
+.form-footer-email {
+    width: 264px;
+    height: 40px;
+}
+
+.footer-btn {
+    margin-left: 24px;
 }
 .logo{
     padding-right: 120px;
@@ -407,6 +451,8 @@ button {
         row-gap: 72px;
         min-width: 100%;
 }
+
+
    }
 
 @media screen and (min-width: 1201px) {
@@ -453,6 +499,7 @@ button {
 .social-list-item {
     gap: 24px;
 }
+/* =======ADD */
 
 }
 
@@ -1044,12 +1091,7 @@ text-align: center;
     background: #2E2F42;
 }
 
-.foorer-box-social {
-    display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 72px;
-}
+
 
 .box-logo-footer {
     text-align: center;
@@ -1073,10 +1115,7 @@ font-family: 'Raleway', sans-serif;
     color: #F4F4FD;
 }
 
-.box-footer-contacts{
-    text-align: center;
-        width: 100%;
-}
+
 
 
 .tex-footer-p {
