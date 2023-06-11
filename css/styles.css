@@ -75,7 +75,22 @@ button {
 /*======================================= DEDIA */
 
 @media screen and (max-width: 1200px){
-    header-email-add{
+
+    .svg-costomers-icon{
+        flex-basis: calc((100% - 120px) / 6);
+            height: 88px;
+            width: 104px;
+            
+    }
+
+    .svg-customers-list{
+        justify-content: center;
+    }
+    .svg-costomers-icon{
+        flex-basis: calc((100% - 24px) / 4);
+            height: 88px;
+    }
+    .header-email-add{
         padding-bottom: 12px;
     }
    .page-header-conteiner{
@@ -95,11 +110,13 @@ button {
     
     
 }
-    .titel-list{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.people-list{
+    flex-basis: calc((100% - 24px) / 4);
+        border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        background-color: var(--checkbox-decoration)
+}
+    
     .paragraph-comp{
         display: flex;
             justify-content: center;
@@ -116,6 +133,14 @@ button {
 }
 }
 @media screen and (max-width: 767px){
+
+
+.people-list{
+
+    flex-basis: calc((100% - 24px) / 4);
+        border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
     .people-list {
         flex-basis: calc((100% - 24px) / 2);
@@ -302,6 +327,10 @@ button {
            .container-label-icon{
             max-width: 100%;
            }
+                   .svg-costomers-icon {
+                       flex-basis: calc((100% - 16px) / 2);
+                       height: 88px;
+                   }
 
 /* ==========================MAINE================================== */
 
@@ -897,7 +926,7 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
+text-align: center;
     order: 1;
     flex-grow: 0;
     color: #434455;
@@ -944,6 +973,63 @@ people-list {
     width: 264px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     background: #FFFFFF;
+}
+
+
+.titel-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* < !--===================================COSTOMERS 5=============--> */
+
+.customers-section {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+
+.customers-title {
+    line-height: 1.1;
+}
+.svg-customers-list {
+        display: flex;
+            flex-wrap: wrap;
+            column-gap: 16px;
+            row-gap: 72px;
+}
+
+
+
+
+
+.customers-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--svg-icon-logo);
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    fill: #8E8F99;
+    ;
+    transition: border-color var(--transition-duration-and-funk), color var(--transition-duration-and-funk);
+
+}
+
+.customers-link:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    fill: #404BBF;
+}
+
+.customers-link:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    fill: #404BBF;
 }
 /* ===========================flexbox-default=============== */
 
@@ -1125,50 +1211,11 @@ padding: 120px 0;
  */
 /* ============================COSTOMERS ===============================*/
 
-/* .customers-section{
-    padding-bottom: 120px;
-    padding-top: 120px;
-}
-.customers-title{
-    line-height: 1.1;
-}
-.svg-costomers-icon{
-display: flex;
-    justify-content: center;
-width: calc((100% - 120px) / 6);
-height: 88px;
-}
-.svg-customers-list{
-    display: flex;
-        justify-content: center;
-        gap: 24px;
-        padding-left: 0px;
-        margin-top: 8px;
-        fill: currentColor;
-}
-.customers-link{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--svg-icon-logo);
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    fill: #8E8F99;;
-    transition: border-color var(--transition-duration-and-funk), color var(--transition-duration-and-funk);
+/* 
 
-}
-.customers-link:hover{
-    color: var(--accent-color) ;
-    border-color:var(--accent-color);
-    fill: #404BBF;
-}
-.customers-link:focus{
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-    fill: #404BBF;
-} */
+
+
+*/
  /*================================== MODAL-FORM-CONTENT */
  /* 
  
