@@ -118,9 +118,10 @@ button {
 @media screen and (max-width: 767px){
 
     .people-list {
+        flex-basis: calc((100% - 24px) / 2);
             text-align: center;
             border-radius: 0px 0px 4px 4px;
-            width: calc((100% - 126px) / 1);
+            width:264px;
             box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
             background: #FFFFFF;
         }
@@ -283,8 +284,10 @@ button {
 
 
 .people-img{
-    display: flex;
-    flex-direction:column;
+        flex-wrap: wrap;
+            column-gap: 24px;
+            row-gap: 72px;
+            justify-content: center;
 }
 
 }
@@ -875,7 +878,6 @@ button {
 }
 .people-img {
     display: flex;
-    gap: 24px;
 
 }
 
