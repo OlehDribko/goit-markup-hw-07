@@ -273,6 +273,12 @@ button {
                 }
                                 /* ==========------>checbox<----=========== */
 
+
+.people-img{
+    display: flex;
+    flex-direction:column;
+}
+
 }
 @media screen and (max-width: 427px){
     .menu-header-navigatione {
@@ -398,6 +404,10 @@ button {
 }
 .skils-box {
     padding-bottom: 120px;
+}
+/* =======================team */
+.social-list-item {
+    gap: 24px;
 }
 
 }
@@ -841,6 +851,84 @@ button {
     display: flex;
     gap: 24px;
 }
+
+
+
+
+/*  < !--=====================================Team 4=============================--> */
+
+.team-box {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #F4F4FD;
+    margin: 0 auto;
+}
+.people-img {
+    display: flex;
+    gap: 24px;
+
+}
+.people-list {
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 48px) / 3);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    background: #FFFFFF;
+}
+
+.name-prof {
+    padding: 32px 0;
+}
+
+.title-teame {
+    margin-bottom: 8px;
+}
+
+.small-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    order: 1;
+    flex-grow: 0;
+    color: #434455;
+}
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-left: 0px;
+    margin-top: 8px;
+}
+
+
+
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    transition: background-color var(--transition-duration-and-funk);
+
+
+
+}
+
+.social-icon-bg:hover {
+    background: var(--accent-color);
+}
+
+.social-icon-bg:focus {
+    background: var(--accent-color);
+}
+
+.social-list-icon {
+    fill: var(--icon-color);
+}
 /* ===========================flexbox-default=============== */
 
 
@@ -974,16 +1062,7 @@ header{
 /*=================================== competencies================================== */
 
 /* 
-.small-text{
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        
-        order: 1;
-        flex-grow: 0;
-        color: #434455;
-}
+
 .competencies{
 padding: 120px 0;
 }
@@ -999,19 +1078,10 @@ padding: 120px 0;
     margin-bottom: 8px;
 }
 
-.social-icon-bg:hover{
-    background: var(--accent-color);
-}
-.social-icon-bg:focus{
-background: var(--accent-color);
-}
-.social-list-icon{
-    fill: var(--icon-color);
-}
 
-.social-list-item{
-    gap: 24px;
-} */
+
+
+ */
 
 /* ==========================skills ========================*/
 /* 
@@ -1020,16 +1090,9 @@ background: var(--accent-color);
 }
 */
 /*============================= Team========================== */
-/* .team-box{
-    padding-top: 120px;
-    padding-bottom: 120px;
-    background: #F4F4FD;
-    margin: 0 auto;
-}
-.people-img{
-    display: flex;
-    gap: 24px;
-    
+/* 
+
+
 }
 .social-app{
     width: 10em;
@@ -1038,40 +1101,12 @@ background: var(--accent-color);
         border-radius: 50%;
         background-color: #404bbf;
 }
-.people-list{
-    text-align: center;
-border-radius: 0px 0px 4px 4px;
-width: calc((100% - 48px) / 3);
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-background: #FFFFFF;
-}
-.name-prof{
-    padding: 32px 0;
-}
 
-.title-teame{
-margin-bottom: 8px;
-}
-.social-list{
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    padding-left: 0px;
-margin-top: 8px;
-}
-.social-list-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #4D5AE5;
-    transition: background-color var(--transition-duration-and-funk);
-    
-    
 
-} */
+
+
+
+ */
 /* ============================COSTOMERS ===============================*/
 
 /* .customers-section{
