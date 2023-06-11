@@ -1124,7 +1124,7 @@ font-family: 'Raleway', sans-serif;
 .form-email-footer {
     width: 100%;
         height: 40px;
-        border: 1px solid var(--clr-white);
+        border: 1px solid #FFFFFF;
         background-color: transparent;
         font-size: 12px;
         line-height: 1.5;
