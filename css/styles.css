@@ -284,10 +284,13 @@ button {
 
 
 .people-img{
+    flex-wrap: wrap;
+        display: flex;
+        column-gap: 24px;
+        row-gap: 72px;
+        justify-content: center;
         flex-wrap: wrap;
-            column-gap: 24px;
-            row-gap: 72px;
-            justify-content: center;
+            
 }
 
 }
@@ -877,8 +880,11 @@ button {
     margin: 0 auto;
 }
 .people-img {
+    flex-wrap: wrap;
     display: flex;
-
+    column-gap: 24px;
+    row-gap: 72px;
+    justify-content: center;
 }
 
 
