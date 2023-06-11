@@ -141,6 +141,21 @@ button {
 }
 @media screen and (max-width: 767px){
 
+    .footer-btn{
+        margin-top: 16px;
+    }
+.form-footer-email {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+.form-footer-container {
+        display: flex;
+        column-gap: 24px;
+        align-content: stretch;
+        flex-direction: column;
+    }
+
     .box-footer-contacts {
             text-align: center;
             width: 100%;
@@ -381,6 +396,17 @@ button {
 }
    @media screen and (min-width: 768px) {
 
+
+    .footer-btn {
+            margin-top: 0;
+        }
+    .form-footer-container{
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+    
+
 .footer-container-titl{
     width: 240px;
 }
@@ -460,7 +486,14 @@ button {
     width: 1200px;
     
 }
+.foorer-box-social{
+    display: flex;
 
+}
+.fsociable-footer-icon{
+    margin-left: 120px;
+    margin-right: 80px;
+}
 .svg-costomers-icon {
     flex-basis: calc((100% - 120px) / 6);
     height: 88px;
@@ -1148,17 +1181,9 @@ font-family: 'Raleway', sans-serif;
     color: #ffffff;
 }
 
-.form-footer-container{
-    display: flex;
-        column-gap: 24px;
-        align-content: stretch;
-        flex-direction: column;
-}
 
-.form-footer-email {
-    width: 100%;
-        margin-bottom: 16px;
-}
+
+
 
 .form-email-footer {
     width: 100%;
@@ -1192,7 +1217,7 @@ font-family: 'Raleway', sans-serif;
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-    margin-top: 16px;
+    
 }
 .footer-form-icon {
     margin-left: 16px;
