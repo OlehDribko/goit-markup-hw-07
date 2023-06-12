@@ -96,6 +96,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 }
 
 @media screen and (max-width: 1157px){
+    
 
     .people-img {
             flex-wrap: wrap;
@@ -147,6 +148,9 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     position: absolute;
     
     
+}
+.head-menu-title::after {
+    bottom: -10px;
 }
 .people-list{
         border-radius: 0px 0px 4px 4px;
@@ -399,7 +403,15 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         justify-content: center;
             
 }
-
+.box-logo-footer {
+    text-align: center;
+}
+.white-text{
+    text-align: center;
+}
+.tex-footer-p{
+    text-align: center;
+}
 }
 @media screen and (max-width: 427px){
     .menu-header-navigatione {
@@ -537,7 +549,9 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 
 @media screen and (min-width: 1158px) {
 
-    
+    .head-menu-title::after {
+            bottom: -4px;
+        }
 .titel-list{
     font-weight: 500;
         font-size: 20px;
@@ -647,7 +661,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     content: "";
     position: absolute;
     left: 0;
-    bottom: -4px;
+
     height: 4px;
     background-color: var(--accent-color);
     border-radius: 2px;
@@ -1052,6 +1066,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     margin-bottom: 8px;
 }
 
+
 .small-text {
     font-weight: 400;
     font-size: 16px;
@@ -1173,9 +1188,7 @@ text-align: center;
 
 
 
-.box-logo-footer {
-    text-align: center;
-}
+
 
 .link-footer {
 font-family: 'Raleway', sans-serif;
@@ -1191,6 +1204,10 @@ font-family: 'Raleway', sans-serif;
 }
 
 .white-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     max-width: 264px;
     color: #F4F4FD;
 }
@@ -1201,7 +1218,11 @@ font-family: 'Raleway', sans-serif;
 .tex-footer-p {
     color: #FFFFFF;
     font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     margin-bottom: 16px;
+
 }
 
 .social-list-footer {
