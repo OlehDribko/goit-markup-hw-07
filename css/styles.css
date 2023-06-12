@@ -789,7 +789,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
     border-radius: 4px;
     padding: 72px 24px 24px 24px;
     transition: transform var(--transition-duration-and-funk);
-
+overflow: auto;
 }
 
 .modal-close-btn {
