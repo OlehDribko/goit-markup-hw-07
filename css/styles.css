@@ -423,12 +423,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
         justify-content: center;
             
 }
-.box-logo-footer {
-    text-align: center;
-}
-.white-text{
-    text-align: center;
-}
+
+
 .tex-footer-p{
     text-align: center;
 }
@@ -1221,6 +1217,7 @@ font-family: 'Raleway', sans-serif;
     color: #4D5AE5;
     display: inline-block;
     margin-bottom: 16px;
+    padding-left: 67px;
 }
 
 .white-text {
