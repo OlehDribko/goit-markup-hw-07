@@ -91,9 +91,20 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 .section-head {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero-image-desctop@2x.png");
     }
+
+
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1157px){
+
+    .people-img {
+            flex-wrap: wrap;
+            display: flex;
+            column-gap: 24px;
+            row-gap: 72px;
+            justify-content: center;
+    
+        }
 .foorer-box-social{
 
     display: flex;
@@ -145,8 +156,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     
     .paragraph-comp{
         display: flex;
-            justify-content: center;
-            align-items: center;
+            
     }
 .competencies-bloc{
     width: 100%;
@@ -157,8 +167,31 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 .skils-box{
     display: none;
 }
+.titel-list{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+}
+
 }
 @media screen and (max-width: 767px){
+    .paragraph-comp {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+        }
+
+    .titel-list{
+        font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            justify-content: center;
+            text-align: center;
+                letter-spacing: 0.02em;
+                text-transform: capitalize;
+    }
 
     .footer-btn{
         margin-top: 16px;
@@ -360,11 +393,10 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 }
 .people-img{
     flex-wrap: wrap;
-        display: flex;
+    display: flex;
         column-gap: 24px;
         row-gap: 72px;
         justify-content: center;
-        flex-wrap: wrap;
             
 }
 
@@ -393,7 +425,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 @media screen and (min-width: 428px) {
     .container {
         width: 428px;
-        width: 100%;
+        
     }
         .menu-header-navigatione {
             display: none;
@@ -408,14 +440,17 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 
 
 /* ==========================MAINE================================== */
-.paragraph-comp{
-    font-weight: 500;
-}
+
 
 }
    @media screen and (min-width: 768px) {
 
-
+.paragraph-comp{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
     .footer-btn {
             margin-top: 0;
         }
@@ -431,7 +466,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 }
 .container{
     width: 768px;
-    width: 100%;
+   
     
 }
 
@@ -500,9 +535,25 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 
    }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1158px) {
+
+    
+.titel-list{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.people-img{
+    flex-wrap: nowrap;
+    display: flex;
+        column-gap: 24px;
+        row-gap: 72px;
+        justify-content: center;
+}
+
 .container{
-    width: 1200px;
+    width: 1158px;
     
 }
 .foorer-box-social{
@@ -596,7 +647,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     content: "";
     position: absolute;
     left: 0;
-    bottom: -1px;
+    bottom: -4px;
     height: 4px;
     background-color: var(--accent-color);
     border-radius: 2px;
@@ -649,7 +700,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         padding-top: 112px;
         padding-bottom: 112px;
     border-bottom: 1px solid #e7e9fc;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/hero-image.jpg");
+    
     
 }
 .main-title {
@@ -945,17 +996,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 
 
 
-.paragraph-comp {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    
-}
+
 
 .competencies-conainer {
     display: flex;
@@ -967,14 +1008,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     margin-bottom: 8px;
 }
 
-* .titel-list {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    margin-bottom: 8px;
-    color: #2E2F42;
-}
+
 
 /* ===================3 section *===================/ */
 
@@ -1006,13 +1040,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     background: #F4F4FD;
     margin: 0 auto;
 }
-.people-img {
-    flex-wrap: wrap;
-    display: flex;
-    column-gap: 24px;
-    row-gap: 72px;
-    justify-content: center;
-}
+
 
 
 .name-prof {
@@ -1080,8 +1108,7 @@ text-align: center;
 
 .titel-list {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 8px;
 }
 
 
