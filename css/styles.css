@@ -1044,6 +1044,11 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 }
 
 .title-teame {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.11px;
+        text-align: center;
+            letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
 
