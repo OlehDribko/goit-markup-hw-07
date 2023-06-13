@@ -208,6 +208,12 @@ screen and (min-resolution: 2dppx) and (min-width: 769px){
 
 }
 @media screen and (max-width: 767px){
+
+
+.link-footer{
+    margin-left: 68px;
+}
+
     .paragraph-comp {
             font-weight: 500;
             font-size: 16px;
@@ -482,6 +488,7 @@ screen and (min-resolution: 2dppx) and (min-width: 769px){
 }
    @media screen and (min-width: 768px) {
 
+    
 .paragraph-comp{
     font-weight: 500;
         font-size: 16px;
@@ -567,12 +574,20 @@ screen and (min-resolution: 2dppx) and (min-width: 769px){
         column-gap: 24px;
         row-gap: 72px;
         min-width: 100%;
+        
+        
 }
 
 
    }
 
 @media screen and (min-width: 1158px) {
+
+.paragraph-comp{
+    font-weight: 400;
+    order: 2;
+        flex-grow: 0;
+}
 
 .compatantions-imags{
     margin-bottom: 27px;
@@ -637,6 +652,7 @@ screen and (min-resolution: 2dppx) and (min-width: 769px){
 .competencies-list {
     display: flex;
     gap: 24px;
+    
 }
 .competencies-bloc {
     flex-basis: calc((100% - 3 * 24px) / 4);
@@ -1326,6 +1342,11 @@ font-family: 'Raleway', sans-serif;
 }
 .footer-form-icon {
     margin-left: 16px;
+}
+
+
+.competencies-box{
+    justify-content: center;
 }
 /* ===========================flexbox-default=============== */
 
