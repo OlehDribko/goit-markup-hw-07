@@ -128,7 +128,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
     .people-img {
             flex-wrap: wrap;
             display: flex;
-            column-gap: 24px;
+            column-gap: 38px;
             row-gap: 72px;
             justify-content: center;
     
