@@ -32,8 +32,8 @@ ol {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
-
-    padding-inline-start:0px;
+padding: 0;
+    
 }
 .link {
     text-decoration: none;
@@ -121,6 +121,9 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
 
 @media screen and (max-width: 1157px){
     
+    .contacts-link{
+        font-size: 12px;
+    }
 
     .people-img {
             flex-wrap: wrap;
@@ -154,7 +157,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
             height: 88px;
     }
     .header-email-add{
-        padding-bottom: 12px;
+        margin-bottom: 12px;
     }
    .page-header-conteiner{
     padding-top: 12px;
@@ -569,6 +572,11 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
 
 @media screen and (min-width: 1158px) {
 
+.contacts-link{
+    font-size: 16px;
+}
+
+    
     .head-menu-title::after {
             bottom: -4px;
         }
@@ -702,8 +710,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
 }
 
 .contacts-link {
+    
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
