@@ -177,7 +177,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px){
     
 }
 .head-menu-title::after {
-    bottom: -10px;
+    bottom: -5px;
 }
 .people-list{
         border-radius: 0px 0px 4px 4px;
