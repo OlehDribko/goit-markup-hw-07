@@ -75,6 +75,10 @@ button {
 /*======================================= mEDIA */
 
 @media screen and (max-width: 767px) {
+.link-footer{
+    padding-left: 71px;
+}
+    
     .section-head {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-mobile.jpg);
     }
@@ -1217,7 +1221,7 @@ font-family: 'Raleway', sans-serif;
     color: #4D5AE5;
     display: inline-block;
     margin-bottom: 16px;
-    padding-left: 71px;
+    
 }
 
 .white-text {
